@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.coming-soon {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.coming-soon .countdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.coming-soon .countdown .day,
+.coming-soon .countdown .hour,
+.coming-soon .countdown .min,
+.coming-soon .countdown .sec {
+  font-size: 2rem;
+}
+
+.coming-soon .waiting {
+  min-height: 40vh;
+}
+/*# sourceMappingURL=style.css.map */
